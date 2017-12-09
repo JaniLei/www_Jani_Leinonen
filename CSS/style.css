@@ -32,7 +32,7 @@ body {
 }
 #topmenu a {
  display:block;
- float:center;
+ float:left;
  height:28px;
  margin:0px 0px 0px 0px;
  text-decoration:none;
