@@ -1,5 +1,5 @@
 body {
- background:#F0FFF0 url(images/image1.png) repeat-x; 
+ background:#F0FFF0 url(images/bg.png) repeat-x; 
 }
 #wrap {
   width:700px;
@@ -15,4 +15,16 @@ body {
   font-family:Verdana, Arial, Helvetica, sans-serif;
   color:#FFF8DC;
   
+}
+
+/* header menu */
+#topmenu {
+ display:block;
+ list-style:none;
+ padding:0px 0px 0px 278px;
+ float:left;
+ width:415px;
+}
+#topmenu li {
+ display:inline;
 }
