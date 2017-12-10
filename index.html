@@ -26,18 +26,6 @@
         }
         return true;
       }
-      
-      function showLocation() {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(showPosition);
-        }
-        else {
-          alert("Your browser does not support geolocation.");
-        }
-      }
-      function showPosition(position) {
-        alert("Latitude: " + position.coords.latitude + (", Longitude: " + position.coords.longitude);
-      }
     </script>
   </head>
   <body>
@@ -141,7 +129,16 @@
       ... <br>
       ... <br>
     </p>
-    <button onclick="showLocation()">Show Location</button>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+       var location = {lat: -25.363, lng: 131.044};
+       var map = new google.maps.Map(document.getElementById("map"), {zoom:4, center:location});
+      }
+    </script>
+    <script>
+      async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5dA7pE_ckXBxYvXCsDIQitxqNTnEI3Hw&callback=initMap"
+    </script>
     <h2>Videos and pictures</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ggh_y-33Eso?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     <img src="https://pbs.twimg.com/media/DFffC1EXoAAPg5q.jpg" alt="kamk logo" height="560" width="315">
