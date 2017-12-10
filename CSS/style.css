@@ -17,7 +17,8 @@ body {
 }
 
 #topbar {
- height:50px;
+ height:100px;
+ background:#F0FFF0 url("https://raw.githubusercontent.com/JaniLei/www_Jani_Leinonen/master/images/bg.png") repeat-x; 
 }
 
 /* header menu */
