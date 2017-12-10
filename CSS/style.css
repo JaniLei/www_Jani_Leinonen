@@ -13,6 +13,7 @@ body {
   height:242px;
   background:url("https://raw.githubusercontent.com/JaniLei/www_Jani_Leinonen/master/images/header.png") no-repeat center top;
   clear:both;
+  display:block;
 }
 
 #topbar {
