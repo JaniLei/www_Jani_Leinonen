@@ -54,6 +54,40 @@ body {
  color:#000000;
  background-color:#D3D3D3;
 }
+#sidemenu {
+ background-color:#FFFFFF; 
+ display:inline;
+ list-style:none;
+ padding:278px 0px 0px 0px;
+ float:center;
+ width:415px;
+ position:fixed;
+}
+#sidemenu li {
+ display:inline;
+}
+#sidemenu a {
+ display:block;
+ float:left;
+ height:28px;
+ margin:0px 0px 0px 0px;
+ text-decoration:none;
+ padding:9px 15px 0px 15px;
+ text-align:center;
+}
+#sidemenu a, #sidemenu a:visited, #sidemenu a:active {
+ color:#000000;
+}
+#sidemenu a:hover {
+ color:#000000;
+ background-color:#D3D3D3;
+ text-decoration:underline;
+}
+#sidemenu .active a, #sidemenu .active a:visited, #sidemenu .active a:active {
+ color:#000000;
+ background-color:#D3D3D3;
+}
+
 table {
  border-spacing:5px;
 }
