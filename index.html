@@ -4,6 +4,22 @@
   <head>
     <title>WWW-course website</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <script>
+      function validateForm()
+      {
+        if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+        {
+          alert("Name must be filled out");
+          return false;
+        }
+        if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+        {
+          alert("Email must be filled out");
+          return false;
+        }
+        return true;
+      }
+    </script>
   </head>
   <body>
     <div id="wrap">
@@ -36,7 +52,7 @@
         goes <br>
         here <br>
       </p>
-    <h2 id="table"> HTML table </h2>
+    <h2 id="table"> HTML table examples </h2>
       <table>
         <th>Table heading1</th>
         <th colspan="2">Table heading2</th>
@@ -72,15 +88,15 @@
       </table>
       
     <h2 id="contact"> Contact us here </h2>
-    <form>
+    <form name="myForm" onSubmit="return validateForm()">
       Your name: <br> <input type="text" name="name"> <br>
       Your e-mail: <br> <input type="email" name="email"> <br>
       Gender: <br> <input type="radio" name="gender" value="male" checked> Male <br>
       <input type="radio" name="gender" value="female"> Female <br>
       <input type="radio" name="gender" value="other"> Other <br>
       Contact reason : <br> <select name="Contact reason">
-        <option value="question">Question</option>
         <option value="comment">Comment</option>
+        <option value="question">Question</option>
         <option value="complaint">Complaint</option>
         <option value="other">Other</option>
       </select> <br>
@@ -89,9 +105,9 @@
     </form>
 
     <p>
-      testing a paragraph 
-      ...
-      ...
+      testing a paragraph <br>
+      ... <br>
+      ... <br>
     </p>
     <img src="https://pbs.twimg.com/media/DFffC1EXoAAPg5q.jpg" alt="kamk logo">
     <a href="https://www.google.com"> google page </a> <br>
