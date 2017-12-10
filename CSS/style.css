@@ -59,12 +59,12 @@ table, th, td {
 }
 th {
  padding:10px;
- text-align:left;
+ text-align:center;
  text-decoration:underline;
 }
 td {
  padding:5px;
- text-align:center;
+ text-align:left;
 }
 table#t1 {
  border:2px solid black;
