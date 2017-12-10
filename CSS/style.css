@@ -60,6 +60,7 @@ table, th, td {
 th {
  padding:10px;
  text-align:left;
+ text-decoration:underline;
 }
 td {
  padding:5px;
