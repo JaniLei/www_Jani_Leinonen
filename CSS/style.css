@@ -51,10 +51,19 @@ body {
  color:#000000;
  background-color:#D3D3D3;
 }
-
+table {
+ border-spacing:5px;
+}
 table, th, td {
  border:2px double #D3D3D3;
- border-collapse:collapse;
+}
+th {
+ padding:10px;
+ text-align:left;
+}
+td {
+ padding:5px;
+ text-align:center;
 }
 
 /* content */
