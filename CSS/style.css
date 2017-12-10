@@ -107,6 +107,10 @@ table#t1 {
  width:100%;
  background-color:#FFFFFF;
 }
+#map {
+ height:500px;
+ width:500px;
+}
 
 /* content */
 #content {
