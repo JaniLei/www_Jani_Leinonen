@@ -59,8 +59,8 @@ body {
  display:inline;
  list-style:none;
  padding:278px 0px 0px 0px;
- float:center;
- width:415px;
+ float:left;
+ width:200px;
  position:fixed;
 }
 #sidemenu li {
@@ -68,7 +68,7 @@ body {
 }
 #sidemenu a {
  display:block;
- float:left;
+ float:center;
  height:28px;
  margin:0px 0px 0px 0px;
  text-decoration:none;
