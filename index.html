@@ -9,12 +9,17 @@
       {
         if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
         {
-          alert("Name must be filled out");
+          alert("Name must be filled out.");
           return false;
         }
         if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
         {
-          alert("Email must be filled out");
+          alert("Email must be filled out.");
+          return false;
+        }
+        if (document.forms["myForm"]["message"].value==null || document.forms["myForm"]["message"].value=="")
+        {
+          alert("Please enter a message.");
           return false;
         }
         return true;
@@ -100,7 +105,7 @@
         <option value="complaint">Complaint</option>
         <option value="other">Other</option>
       </select> <br>
-      <textarea>Message here</textarea>
+      <textarea name="message">Message here</textarea>
       <input type="submit" value="Submit">
     </form>
 
