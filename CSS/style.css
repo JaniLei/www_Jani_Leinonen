@@ -58,7 +58,7 @@ body {
  background-color:#FFFFFF; 
  display:inline;
  list-style:none;
- padding:278px 0px 0px 0px;
+ padding:0px 0px 0px 0px;
  float:left;
  width:200px;
  position:fixed;
@@ -70,7 +70,7 @@ body {
  display:block;
  float:center;
  height:28px;
- margin:0px 0px 0px 0px;
+ margin:415px 0px 0px 0px;
  text-decoration:none;
  padding:9px 15px 0px 15px;
  text-align:center;
