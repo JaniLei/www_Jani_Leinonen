@@ -17,7 +17,9 @@
           alert("Email must be filled out.");
           return false;
         }
-        if (document.forms["myForm"]["message"].value==null || document.forms["myForm"]["message"].value=="")
+        if (document.forms["myForm"]["message"].value==null 
+            || document.forms["myForm"]["message"].value=="" 
+            || document.forms["myForm"]["message"].value=="Message here")
         {
           alert("Please enter a message.");
           return false;
