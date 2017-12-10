@@ -30,11 +30,11 @@
     <h1> Main heading </h1>
     <h2 id="info"> Info here </h2>
       <p>
-        info
-        about
-        page
-        goes
-        here
+        info <br>
+        about <br>
+        page <br>
+        goes <br>
+        here <br>
       </p>
     <h2 id="table"> HTML table </h2>
       <table>
@@ -74,7 +74,16 @@
     <h2 id="contact"> Contact us here </h2>
     <form>
       Your name: <br> <input type="text" name="name"> <br>
-      Your e-mail: <br> <input type="text" email="email"> <br>
+      Your e-mail: <br> <input type="text" name="email"> <br>
+      Gender: <input type="radio" name="gender" value="male" checked> Male <br>
+      <input type="radio" name="gender" value="female"> Female <br>
+      <input type="radio" name="gender" value="other"> Other <br>
+      <select name="Contact reason">
+        <option value="question">Question</option>
+        <option value="comment">Comment</option>
+        <option value="complaint">Complaint</option>
+        <option value="other">Other</option>
+      </select> 
       <textarea>Message here</textarea>
       <input type="submit" value="Submit">
     </form>
