@@ -40,16 +40,16 @@ body {
  text-align:center;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active {
- color:#000000;
+ color:#FFFFFF;
 }
 #topmenu a:hover {
- color:#000000;
- background-color:#FFFFFF;
+ color:#FFFFFF;
+ background-color:#D3D3D3;
  text-decoration:underline;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
- color:#000000;
- background-color:#FFFFFF;
+ color:#FFFFFF;
+ background-color:#D3D3D3;
 }
 
 /* content */
