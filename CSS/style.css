@@ -18,11 +18,11 @@ body {
 
 #topbar {
  height:100px;
- background:#F0FFF0 url("https://raw.githubusercontent.com/JaniLei/www_Jani_Leinonen/master/images/bg.png") repeat-x; 
 }
 
 /* header menu */
 #topmenu {
+ background:#F0FFF0 url("https://raw.githubusercontent.com/JaniLei/www_Jani_Leinonen/master/images/bg.png") repeat-x; 
  display:block;
  list-style:none;
  padding:0px 0px 0px 278px;
